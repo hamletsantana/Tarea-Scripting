@@ -1,4 +1,5 @@
 import 'dart:io';
+
 void main()
 {
 	int n = 0; 
@@ -14,7 +15,7 @@ void main()
 		{
 			if(number.isEmpty == true)
 			{
-				stdout.write("");
+				stdout.writeln("");
 				break;
 			}
 			stderr.writeln("Invalid input $number");
@@ -33,4 +34,5 @@ void main()
 			n += 1;
 		}
 	}
+	
 }
